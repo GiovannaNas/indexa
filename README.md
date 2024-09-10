@@ -1,27 +1,29 @@
-# Indexa
+# Projeto Angular: Aplicação Web com Componentes Reutilizáveis
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
+## Descrição
 
-## Development server
+Este projeto é uma aplicação web desenvolvida com Angular, criada durante um curso da Alura. O objetivo é demonstrar a construção de uma aplicação utilizando componentes reutilizáveis, a linguagem de template do Angular, e o Angular CLI. A aplicação também inclui estilização com CSS e manipulação de arquivos JSON.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tecnologias Utilizadas
 
-## Code scaffolding
+- **Angular**: Framework para desenvolvimento de aplicações web.
+- **TypeScript**: Linguagem usada para o desenvolvimento do Angular.
+- **CSS**: Para estilização dos componentes.
+- **Angular CLI**: Ferramenta de linha de comando para facilitar o desenvolvimento Angular.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Estrutura do Projeto
+- **src/app/**: Contém os componentes e módulos da aplicação.
+- **src/assets/**: Arquivos estáticos, como imagens e arquivos JSON.
+- **src/environments/**: Configurações de ambiente para desenvolvimento e produção.
+- **angular.json**: Configurações do Angular CLI.
+- **tsconfig.json**: Configurações do TypeScript.
 
-## Build
+## Funcionalidades
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Criação de Componentes Reutilizáveis**: Componentes modulares e reutilizáveis para melhor organização e manutenção do código.
+- **Linguagem de Template**: Uso da linguagem de template do Angular para controle de fluxo de dados com diretivas como `*ngFor`.
+- **Angular CLI**: Utilização do Angular CLI para criação e gerenciamento de projetos e componentes.
+- **Estilização com CSS**: Aplicação de estilos para aprimorar a interface do usuário.
+- **Leitura de Arquivos JSON**: Integração com arquivos JSON para configuração e dados da aplicação.
+- **Ajustes no tsconfig.json**: Configuração do arquivo `tsconfig.json` para atender às necessidades específicas do projeto.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
